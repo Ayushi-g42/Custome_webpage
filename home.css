@@ -1,0 +1,481 @@
+
+*{
+  margin: 0;
+}
+
+body {
+  font-size: 16px;
+}
+
+.checkbtn{
+ color: black;
+ display: none;
+ float: right;
+ margin-top: 15px;
+ cursor: pointer;
+}
+#check{
+ display: none;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+}
+#logo{
+  width: 70px;
+  height: 70px;
+  float: left;
+}
+header nav{
+ float: right;
+ margin-top: 20px;
+}
+header nav a{
+  text-decoration: none;
+  color:rgb(53, 51, 51);
+  font-family:   Sans-serif;
+  margin: 15px;
+}
+header nav a:hover{
+  color: hsl(29, 93%, 58%);
+}
+header nav a:last-child{
+  background-color: white;
+  width: 120px;
+  height: 60px;
+  border-radius: 20px;
+  border:1px solid gray;
+  color:  hsl(29, 93%, 58%);
+  box-shadow: 1px 1px 1px 1px rgb(226, 220, 220);
+  cursor: pointer;
+  margin: 15px;
+}
+header nav a:last-child:hover{
+   background-color: rgb(139, 247, 139);
+}
+header nav a:first-child{
+  color: hsl(29, 93%, 58%);
+}
+.image-work{
+  background-image: url("banner.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 450px;
+}
+
+.image-work .head
+{
+   width: 30%;
+   margin-top: 100px;
+}
+.image-work .head h2
+{
+  color: hsl(29, 93%, 58%);
+  font-family: sans-serif;
+  font-size: 30px;
+  text-align: left;
+}
+.image-work .head p
+{
+  font-family: sans-serif;
+  font-size: 15px;
+  color: hsl(30, 2%, 25%);
+  margin-top: 15px;
+}
+.image-work .head a{
+ padding-left: 30px;
+ padding-top:15px;
+ color: white;
+ font-size: 15px;
+ font-family: sans-serif;
+}
+.image-work .head div{
+  background-color: hsl(29, 93%, 58%);
+  width: 170px;
+  height: 40px;
+  border-radius: 20px;
+  color:  white;
+  margin-top: 25px;
+  cursor: pointer;
+} 
+header .head a:hover{
+   background-color: rgb(139, 247, 139);
+}
+.container{
+  max-width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+section .onlinelearning{
+   width: 100%;
+}
+section .onlinelearning h2{
+  font-size: 40px;
+  text-align: center;
+  font-family: sans-serif;
+  margin-top: 10px;
+}
+
+section .onlinelearning p{
+  font-size: 15px;
+  text-align: center;
+  font-family: sans-serif;
+  color:  hsl(160, 4%, 26%);
+  margin-top: 20px;
+ 
+}
+section .onlinelearning hr{
+  width: 80px;
+  margin-left:auto;
+  margin-right: auto;
+  color: #000;
+}  
+section .onlineimages {  
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+}
+section .onlineimages .onlineimg {
+  max-width: 32%;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+section .onlineimages .onlineimg:hover{
+   cursor: pointer;
+   opacity: 0.7;
+ }
+.detail{
+   display: flex;      
+   margin-top: 50px;
+}
+section .video{
+   margin-left: 0px;
+   width: 50%;
+}
+section .video video{
+  width: 100%;
+  border: 15px solid rgba(192, 190, 190, 0.959);
+}
+section .article{
+   height: 310px;
+   width: 50%;
+   padding-left: 20px;
+   margin-left: 30px;
+   padding-right: 10px;
+   }
+section .article h3{
+   font-size: 25px;
+   font-family: sans-serif;
+}
+section .article hr{
+   width: 45px;
+   margin-top: 10px;
+   color: black;
+}
+section .article p{
+  font-size: 15.1px;
+  font-family: sans-serif;
+  color:  hsl(160, 4%, 26%);
+  margin-top: 20px;
+}
+section .article .counts{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  margin-top: 20px;
+}
+section .article .counts .numbers{
+  width: 100px;
+  height: 100px;
+  flex: 1;
+  margin: 0px;
+  font-size: 27px;
+  font-family: sans-serif;
+}   
+section .article .counts .numbers small{
+   font-size: 16px;
+}   
+section .article .counts .numbers:first-child{
+  color: hsl(49, 97%, 50%);
+}  
+section .article .counts .numbers:last-child{
+  color: hsl(98, 75%, 43%);
+}   
+section .article .counts .numbers {
+  color: hsl(335, 90%, 55%);
+}  
+.allcourses{
+  margin-top: 80px;
+}
+.allcourses .heading{
+  width: 100%;
+}
+.allcourses .heading .sideline:first-child{
+  width: 9%;
+  position: relative;
+  top:18px;
+  margin-left:20% ;
+  margin-right: 80%;
+}
+.allcourses .heading .sideline:last-of-type{
+  width: 9%;
+  position: relative;
+  top:-18px;
+  left: 78%;
+}    
+.allcourses .heading h3{
+  font-size: 30px;
+  font-family: sans-serif;
+  width: 100%;
+  text-align: center;
+}
+
+section .university-course{
+  width: 100%;
+  display: flex;
+  margin-top: 50px;
+}
+section .university-course:last-child{
+  margin-top: 20px;
+}
+section .university-course .technical-course{
+  width: 25%;
+  height: 300px;
+  border-radius: 5px ;
+  box-shadow: 3px 5px 50px 5px rgb(231, 227, 227);
+}
+section .university-course .technical-course:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    background-color: hsl(24, 87%, 78%);
+  }
+section .university-course .technical-course img{
+  width: 95%;
+  height: 150px; ;
+  margin: 5px;
+}
+section .university-course .technical-course h4{
+  font-family:sans-serif;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 15px;
+  color: hsl(270, 2%, 35%);
+}
+section .university-course .technical-course p:first-of-type{
+  font-family: sans-serif;
+  padding-left: 10px;
+  padding-top: 5px;
+  font-size: 15px;
+  letter-spacing:-0.7px;
+  color: hsl(270, 3%, 53%);
+  font-size: 15px;
+}
+section .university-course .technical-course p:last-child{
+  font-family: sans-serif;
+  padding-left: 10px;
+  padding-top: 30px;
+  font-size: 15px;
+  color: hsl(270, 3%, 53%);
+}
+section .online-icons{
+  height: 180px;
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+section .online-icons div{
+  height: 130px;
+} 
+
+section .online-icons div i{
+  font-size: 45px;
+  padding-left:25px;
+  padding-top: 20px;
+}
+section .online-icons div i:hover{
+  color: red;
+}
+
+section .online-icons div p{
+  font-family: sans-serif;
+  font-size: 15px;
+  color: rgb(61, 61, 61);
+  padding-top: 30px;
+  text-align: center;    
+}
+section .fullline{
+  width: 100%;
+  color: red;
+}
+section .arrow{
+  color: red;
+  position: relative;
+  top:-9px;
+  left:0px;
+  transform: translate(20px);
+}
+
+section .paragraph{
+ width: 100%;
+ margin-top: 20px;
+}
+section .paragraph p{
+ font-family: sans-serif;
+ font-size: 14px;
+ color: rgb(77, 74, 74);
+}
+section .contactdetail{
+  width: 100%; 
+  margin-top: 60px;
+}
+section .contactdetail input{
+  border: none;
+  width: 45%;
+  height: 50px;
+  border-radius: 20px;
+  margin: 9px;
+  justify-content: center;
+  padding-left: 20px;
+  font-size: 20px;
+  box-shadow: 2px 4px 10px 3px rgb(235, 233, 233);
+}
+section .contactdetail input:last-of-type{
+  width: 95%;
+  height: 180px;
+}
+section .contactdetail button{
+  border:2px red solid;
+  width: 130px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 20px;
+  color: red;
+  background-color: white;
+  margin-left: 43%;
+  margin-top: 20px;
+}
+footer{
+ background-color: rgb(4, 4, 24);  
+ display: flex;
+ padding-top: 50px;
+ padding-bottom: 50px;
+ justify-content: space-between;
+ margin-top: 20px;
+}
+footer div{
+ width:20%;
+ justify-content: space-between;
+}
+
+footer .icons img{
+  width: 150px;
+  height:70px;
+}
+footer .icons p{
+ color: rgb(172, 165, 165);
+ font-family: sans-serif;
+ padding-top: 18px;
+}
+footer .icons hr{
+ color: rgb(90, 83, 83);
+ margin-top: 20px;
+}
+footer .icons ul{
+ margin-left:-40px;
+}
+footer .icons ul li{
+ list-style: none;
+ float: left;
+ margin-top: 20px;
+ justify-content: space-between;
+}
+footer .icons ul li a i{
+width: 25px;
+height: 25px;
+border-radius: 5px;
+margin: 5px;
+color: rgb(182, 180, 180);
+}
+
+footer .features h5{
+ color: white;
+ font-family: sans-serif;
+ font-size: 15px;
+}
+footer .features p{
+ color: rgb(172, 165, 165);
+ font-family: sans-serif;
+ font-size: 15px;
+ padding-top: 35px;
+}
+footer .features p small{
+color: rgb(97, 90, 90); ;
+}
+
+footer .learning h5{
+ color: white;
+ font-family: sans-serif;
+ font-size: 15px;
+}
+footer .learning p{
+ color: rgb(172, 165, 165);
+ font-family: sans-serif;
+ font-size: 15px;
+ padding-top: 40px;
+}
+
+footer .support h5{
+color: white;
+ font-family: sans-serif;
+ font-size: 15px;
+}
+footer .support p{
+color: rgb(172, 165, 165);
+ font-family: sans-serif;
+ font-size: 13px;
+ margin-top: 50px;
+}
+footer .support input{
+margin-top: 20px;
+height: 30px;
+padding-left: 15px;
+width: 110px;
+}
+footer .support .yellow{
+height: 35px;
+background-color: rgb(226, 180, 29);
+border: 1px rgb(226, 180, 29) solid;
+width: 60px;
+color: rgb(255, 255, 255);
+margin-left: -5px;
+}
+.footer-end
+{
+
+  background-color: rgb(6, 1, 17);
+  margin-top: 0px;
+  color:  rgb(172, 165, 165);
+  display: flex;
+  font-family: sans-serif;
+  font-size: 13px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.footer-end .copyright{
+  flex: 50%;
+}
+.footer-end .foot-list{
+  flex: 50%;
+}
+
+.footer-end .foot-list ul li{
+  float: left;
+  list-style: none;
+  padding-top: 5px;
+  padding-left: 15px;
+}
+

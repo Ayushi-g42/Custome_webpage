@@ -1,0 +1,185 @@
+
+@media (max-width:1199x)
+{
+  footer .support .yellow{
+    margin-left: -5px;
+    }
+  footer .icons ul li a i{
+    margin: 1px;
+    }
+}
+@media (max-width:1050px)
+{
+  section .contactdetail input{
+    width: 44%;
+  }
+  section .contactdetail input:last-of-type{
+    width: 94%;
+  }
+}
+@media (max-width: 991px) {
+  h2 {
+    font-size: 30px;
+  }
+  section .contactdetail input{
+    width: 43%;
+  }
+  section .contactdetail input:last-of-type{
+    width: 93%;
+  }
+  section .onlineimages .onlineimg {
+    max-width: 48%;
+  }
+  .image-work .head
+  {
+    width: 300px;
+    margin-top: 50px;
+  }
+  .image-work .head h2
+  {
+    font-size: 25px;
+  }
+  .image-work .head div{
+    height: 30px;
+  } 
+  .allcourses{
+    margin-top: 70px;
+  }
+  .allcourses .heading .sideline{
+    display: none;
+  }
+  }
+  
+@media (max-width: 767px) {
+    section .onlineimages .onlineimg {
+      max-width: 100%;
+    }
+    .detail{
+      flex-wrap: wrap;
+    }
+    .checkbtn{
+      display: block;
+    }
+    header nav{
+    display: none;
+    }
+    section .video{
+      width: 100%;
+    }
+    section .article{
+      width: 100%;
+    }
+    section .university-course{
+      flex-wrap: wrap;
+    }
+    section .university-course .technical-course{
+      width: 50%;     
+      height: 350px;
+    }
+    section .contactdetail input{
+      width: 93%;
+    }
+  
+}
+@media (max-width:600px)
+{
+  .container{
+    max-width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #logo{
+    width: 50px;
+    height: 50px;
+  }
+  .image-work{
+   max-width: 100%;
+   height: 300px;
+  }
+  .image-work .head
+  {
+    width: 65%;
+    margin-top: 40px;
+  }
+  .image-work .head h2
+  {
+    font-size: 20px;
+  }
+  .image-work .head p
+  {
+    font-size: 13px;
+  }
+  .image-work .head div{
+    height: 20px;
+    margin-top: 10px;
+  } 
+  
+  section .onlinelearning h2{
+    font-size: 30px;
+    margin-top: 0px;
+  }
+  section .onlineimages .onlineimg {
+    max-width: 100%;
+  }
+  section .university-course .technical-course{
+    width: 100%;     
+    height: 350px;
+  }
+  .allcourses{
+    margin-top: 150px;
+  }
+  section .online-icons div i{
+    font-size: 20px;
+    padding-left:10px;
+  }
+  section .online-icons div p{
+    font-size: 10px;
+    padding-top: 10px;
+  }
+  section .fullline{
+    width: 100%;
+    color: red;
+    margin-top: -80px;
+  }
+  section .paragraph p{
+    font-size: 12px;
+    margin-top: -15px;
+   }
+   section .contactdetail input{
+    width: 90%;
+  }
+    section .contactdetail input:last-of-type{
+    width: 90%;
+  }
+  section .contactdetail button{
+    margin-left: 35%;
+  }
+  footer{
+      flex-wrap: wrap;
+      padding-top: 30px;
+   }
+   footer div{
+      width:100%;
+      padding: 30px; 
+      font-size: 12px;
+   }
+    footer .features p{
+      padding-top: 15px;
+      font-size: 12px;
+   }
+   footer .learning p{
+    font-size: 12px;
+    padding-top: 20px;
+   }
+   footer .support p{
+     font-size: 12px;
+     margin-top: 30px;
+    }
+    .footer-end
+    {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+  
